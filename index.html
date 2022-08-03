@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietteria</title>
+</head>
+<body>
+    <form id="ticketForm" action="#">
+        <input id="km" type="number" placeholder="Inserisci chilometri">
+        <input id="eta" type="number"placeholder="Inserisci etá">
+        <button type="submit">Enter</button>
+    </form>
+    <h2>Ecco il tuo biglietto:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Chilometri</th>
+                <th>Tariffa</th>
+                <th>Prezzo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td id="kmOutput"></td>
+            <td id="offerOutput"></td>
+            <td id="priceOutput"></td>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
